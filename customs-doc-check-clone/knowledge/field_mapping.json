@@ -1,0 +1,182 @@
+{
+  "FIELD_MAPPING_SCHEMA": {
+    "EXPORTER": [
+      "Exporter",
+      "Seller",
+      "Shipper",
+      "Consignor",
+      "Exporter Name",
+      "Seller Name",
+      "Shipper Name"
+    ],
+    "IMPORTER": [
+      "Importer",
+      "Buyer",
+      "Consignee",
+      "Importer Name",
+      "Buyer Name",
+      "Consignee Name"
+    ],
+    "INVOICE_NUMBER": [
+      "Invoice No.",
+      "Invoice Number",
+      "Invoice #",
+      "Inv. No.",
+      "Commercial Invoice No."
+    ],
+    "INVOICE_DATE": [
+      "Invoice Date",
+      "Date of Invoice",
+      "Issue Date",
+      "Issued Date"
+    ],
+    "BL_NUMBER": [
+      "B/L No.",
+      "B/L Number",
+      "Bill of Lading No.",
+      "Bill of Lading Number",
+      "B/L",
+      "BL No.",
+      "BL Number"
+    ],
+    "CONTRACT_NUMBER": [
+      "Contract No.",
+      "Contract Number",
+      "Sales Contract No.",
+      "S/C No.",
+      "S/C"
+    ],
+    "CONTRACT_DATE": [
+      "Contract Date",
+      "Date of Contract",
+      "Sales Contract Date"
+    ],
+    "GROSS_WEIGHT": [
+      "G.W.",
+      "GW",
+      "Gross Weight",
+      "Gross Wt.",
+      "G.W",
+      "Gross"
+    ],
+    "NET_WEIGHT": [
+      "N.W.",
+      "NW",
+      "Net Weight",
+      "Net Wt.",
+      "N.W",
+      "Net"
+    ],
+    "MEASUREMENT": [
+      "Measurement",
+      "Measure",
+      "Measurement (CBM)",
+      "CBM",
+      "Volume",
+      "VOL"
+    ],
+    "QUANTITY": [
+      "Quantity",
+      "Qty",
+      "Q'ty",
+      "Total Quantity",
+      "Goods Quantity"
+    ],
+    "UNIT_PRICE": [
+      "Unit Price",
+      "Price per Unit",
+      "Unit Cost",
+      "Price/Unit"
+    ],
+    "TOTAL_AMOUNT": [
+      "Total Amount",
+      "Invoice Amount",
+      "Grand Total",
+      "Total Value",
+      "Amount"
+    ],
+    "CURRENCY": [
+      "Currency",
+      "Currency Code",
+      "Curr.",
+      "Invoice Currency"
+    ],
+    "INCOTERMS": [
+      "Incoterms",
+      "Incoterm",
+      "Trade Term",
+      "Delivery Term",
+      "Terms of Delivery"
+    ],
+    "VESSEL_VOYAGE": [
+      "Vessel/Voyage",
+      "Vessel / Voyage",
+      "Vessel",
+      "Voyage",
+      "Vessel Name",
+      "Voyage No."
+    ],
+    "PORT_OF_LOADING": [
+      "Port of Loading",
+      "POL",
+      "Port of Load",
+      "Loading Port"
+    ],
+    "PORT_OF_DISCHARGE": [
+      "Port of Discharge",
+      "POD",
+      "Port of Discharge (POD)",
+      "Discharge Port"
+    ],
+    "CONTAINER_NUMBER": [
+      "Container No.",
+      "Container Number",
+      "Container",
+      "Container No",
+      "CNT No."
+    ],
+    "SEAL_NUMBER": [
+      "Seal No.",
+      "Seal Number",
+      "Seal",
+      "Container Seal No."
+    ],
+    "HS_CODE": [
+      "HS Code",
+      "HS CODE",
+      "HS No.",
+      "Harmonized System Code",
+      "Tariff Code"
+    ],
+    "COUNTRY_OF_ORIGIN": [
+      "Country of Origin",
+      "Origin",
+      "Origin Country",
+      "Made in",
+      "Country of Manufacture"
+    ]
+  },
+
+  "FIELD_NORMALIZATION": {
+    "PACKAGE_COUNT": [
+      "No. of Packages",
+      "Number of Packages",
+      "Total Packages",
+      "Total PKGS",
+      "Packages",
+      "PKGS",
+      "Pkg",
+      "Package"
+    ],
+    "VESSEL": [
+      "Vessel",
+      "Vessel Name",
+      "Mother Vessel"
+    ],
+    "VOYAGE": [
+      "Voyage",
+      "Voyage No.",
+      "Voyage Number"
+    ]
+  }
+}
