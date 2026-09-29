@@ -1,0 +1,310 @@
+{
+  "DOCUMENT_NOTATIONS_DATABASE": {
+    "WEIGHT_AND_MEASUREMENT": [
+      {
+        "raw": "G.W.",
+        "standard": "GROSS_WEIGHT",
+        "meaning": "Trọng lượng gộp (bao gồm cả bao bì)"
+      },
+      {
+        "raw": "GW",
+        "standard": "GROSS_WEIGHT",
+        "meaning": "Trọng lượng gộp"
+      },
+      {
+        "raw": "GROSS WT",
+        "standard": "GROSS_WEIGHT",
+        "meaning": "Trọng lượng gộp"
+      },
+      {
+        "raw": "N.W.",
+        "standard": "NET_WEIGHT",
+        "meaning": "Trọng lượng ròng (không tính bao bì)"
+      },
+      {
+        "raw": "NW",
+        "standard": "NET_WEIGHT",
+        "meaning": "Trọng lượng ròng"
+      },
+      {
+        "raw": "NET WT",
+        "standard": "NET_WEIGHT",
+        "meaning": "Trọng lượng ròng"
+      },
+      {
+        "raw": "T.W.",
+        "standard": "TARE_WEIGHT",
+        "meaning": "Trọng lượng vỏ container/bao bì"
+      },
+      {
+        "raw": "TARE",
+        "standard": "TARE_WEIGHT",
+        "meaning": "Trọng lượng vỏ container/bao bì"
+      },
+      {
+        "raw": "CBM",
+        "standard": "MEASUREMENT",
+        "meaning": "Thể tích (Mét khối)"
+      },
+      {
+        "raw": "MEAS",
+        "standard": "MEASUREMENT",
+        "meaning": "Kích thước / Thể tích"
+      },
+      {
+        "raw": "VOL",
+        "standard": "MEASUREMENT",
+        "meaning": "Thể tích"
+      },
+      {
+        "raw": "CBFT",
+        "standard": "MEASUREMENT_CUFT",
+        "meaning": "Thể tích (Feet khối)"
+      }
+    ],
+
+    "FREIGHT_AND_BILL_OF_LADING": [
+      {
+        "raw": "CY/CY",
+        "standard": "CONTAINER_YARD_TO_CONTAINER_YARD",
+        "meaning": "Giao nhận từ bãi container cảng đi đến bãi container cảng đến"
+      },
+      {
+        "raw": "CFS/CFS",
+        "standard": "CONTAINER_FREIGHT_STATION",
+        "meaning": "Giao nhận hàng lẻ (LCL) qua kho gom hàng"
+      },
+      {
+        "raw": "CY/CFS",
+        "standard": "COMBINED_TRANSPORT_MODE",
+        "meaning": "Giao nguyên container tại bãi đi, dỡ hàng lẻ tại kho đến"
+      },
+      {
+        "raw": "CFS/CY",
+        "standard": "COMBINED_TRANSPORT_MODE",
+        "meaning": "Gom hàng lẻ tại kho đi, giao nguyên container tại bãi đến"
+      },
+      {
+        "raw": "FCL/FCL",
+        "standard": "FULL_CONTAINER_LOAD",
+        "meaning": "Hàng nguyên container"
+      },
+      {
+        "raw": "LCL/LCL",
+        "standard": "LESS_THAN_CONTAINER_LOAD",
+        "meaning": "Hàng lẻ đóng chung container"
+      },
+      {
+        "raw": "FREIGHT PREPAID",
+        "standard": "FREIGHT_PAYMENT_STATUS",
+        "meaning": "Cước phí vận chuyển đã trả tại cảng đi"
+      },
+      {
+        "raw": "FREIGHT COLLECT",
+        "standard": "FREIGHT_PAYMENT_STATUS",
+        "meaning": "Cước phí vận chuyển trả sau tại cảng đến"
+      },
+      {
+        "raw": "SOB",
+        "standard": "SHIPPED_ON_BOARD",
+        "meaning": "Hàng đã bốc lên tàu"
+      },
+      {
+        "raw": "O/B",
+        "standard": "ON_BOARD",
+        "meaning": "Đã xếp lên tàu"
+      },
+      {
+        "raw": "Clean B/L",
+        "standard": "BL_CONDITION",
+        "meaning": "Vận đơn hoàn hảo"
+      },
+      {
+        "raw": "Unclean B/L",
+        "standard": "BL_CONDITION",
+        "meaning": "Vận đơn không hoàn hảo"
+      },
+      {
+        "raw": "FBL",
+        "standard": "FIATA_BILL_OF_LADING",
+        "meaning": "Vận đơn FIATA"
+      },
+      {
+        "raw": "HBL",
+        "standard": "HOUSE_BILL_OF_LADING",
+        "meaning": "Vận đơn nhà do Forwarder cấp"
+      },
+      {
+        "raw": "MBL",
+        "standard": "MASTER_BILL_OF_LADING",
+        "meaning": "Vận đơn chủ do hãng tàu cấp"
+      },
+      {
+        "raw": "POL",
+        "standard": "PORT_OF_LOADING",
+        "meaning": "Cảng xếp hàng"
+      },
+      {
+        "raw": "POD",
+        "standard": "PORT_OF_DISCHARGE",
+        "meaning": "Cảng dỡ hàng"
+      },
+      {
+        "raw": "POD",
+        "standard": "PROOF_OF_DELIVERY",
+        "meaning": "Bằng chứng giao hàng (tùy ngữ cảnh)"
+      },
+      {
+        "raw": "FND",
+        "standard": "FINAL_DESTINATION",
+        "meaning": "Điểm đến cuối cùng"
+      },
+      {
+        "raw": "ETA",
+        "standard": "ESTIMATED_TIME_OF_ARRIVAL",
+        "meaning": "Ngày/giờ dự kiến tàu đến"
+      },
+      {
+        "raw": "ETD",
+        "standard": "ESTIMATED_TIME_OF_DEPARTURE",
+        "meaning": "Ngày/giờ dự kiến tàu chạy"
+      },
+      {
+        "raw": "ATA",
+        "standard": "ACTUAL_TIME_OF_ARRIVAL",
+        "meaning": "Ngày/giờ thực tế tàu đến"
+      },
+      {
+        "raw": "ATD",
+        "standard": "ACTUAL_TIME_OF_DEPARTURE",
+        "meaning": "Ngày/giờ thực tế tàu chạy"
+      }
+    ],
+
+    "PACKAGING_AND_SHIPPING_MARKS": [
+      {
+        "raw": "S/MARK",
+        "standard": "SHIPPING_MARKS",
+        "meaning": "Ký mã hiệu trên bao bì hàng hóa"
+      },
+      {
+        "raw": "MARKS & NOS",
+        "standard": "SHIPPING_MARKS_AND_NUMBERS",
+        "meaning": "Ký mã hiệu và số thứ tự kiện hàng"
+      },
+      {
+        "raw": "N/M",
+        "standard": "NO_MARK",
+        "meaning": "Không có ký mã hiệu trên bao bì"
+      },
+      {
+        "raw": "NO MARK",
+        "standard": "NO_MARK",
+        "meaning": "Không có ký mã hiệu"
+      },
+      {
+        "raw": "C/NO.",
+        "standard": "CARTON_NUMBER",
+        "meaning": "Số thùng / số kiện"
+      },
+      {
+        "raw": "CTN NO.",
+        "standard": "CARTON_NUMBER",
+        "meaning": "Số thùng carton"
+      },
+      {
+        "raw": "AS PER ATTACHED LIST",
+        "standard": "ATTACHMENT_NOTE",
+        "meaning": "Theo danh sách đính kèm"
+      },
+      {
+        "raw": "STC",
+        "standard": "SAID_TO_CONTAIN",
+        "meaning": "Được khai báo là chứa"
+      },
+      {
+        "raw": "SLAC",
+        "standard": "SHIPPER_LOAD_AND_COUNT",
+        "meaning": "Chủ hàng tự đóng và tự đếm hàng"
+      },
+      {
+        "raw": "SAY TOTAL",
+        "standard": "AMOUNT_IN_WORDS",
+        "meaning": "Tổng số tiền bằng chữ"
+      }
+    ],
+
+    "COMMERCIAL_AND_PAYMENT_TERMS": [
+      {
+        "raw": "L/C",
+        "standard": "LETTER_OF_CREDIT",
+        "meaning": "Thư tín dụng thương mại"
+      },
+      {
+        "raw": "T/T",
+        "standard": "TELEGRAPHIC_TRANSFER",
+        "meaning": "Thanh toán chuyển khoản bằng điện"
+      },
+      {
+        "raw": "TTR",
+        "standard": "TELEGRAPHIC_TRANSFER_REIMBURSEMENT",
+        "meaning": "Thanh toán bằng điện có hoàn trả"
+      },
+      {
+        "raw": "D/P",
+        "standard": "DOCUMENTS_AGAINST_PAYMENT",
+        "meaning": "Giao chứng từ khi thanh toán"
+      },
+      {
+        "raw": "D/A",
+        "standard": "DOCUMENTS_AGAINST_ACCEPTANCE",
+        "meaning": "Giao chứng từ khi chấp nhận thanh toán"
+      },
+      {
+        "raw": "CAD",
+        "standard": "CASH_AGAINST_DOCUMENTS",
+        "meaning": "Thanh toán tiền mặt giao chứng từ"
+      },
+      {
+        "raw": "O/A",
+        "standard": "OPEN_ACCOUNT",
+        "meaning": "Phương thức ghi sổ"
+      },
+      {
+        "raw": "B/G",
+        "standard": "BANK_GUARANTEE",
+        "meaning": "Bảo lãnh ngân hàng"
+      },
+      {
+        "raw": "P/O",
+        "standard": "PURCHASE_ORDER",
+        "meaning": "Đơn đặt hàng"
+      },
+      {
+        "raw": "S/C",
+        "standard": "SALES_CONTRACT",
+        "meaning": "Hợp đồng mua bán"
+      },
+      {
+        "raw": "PI",
+        "standard": "PROFORMA_INVOICE",
+        "meaning": "Hóa đơn chiếu lệ"
+      },
+      {
+        "raw": "CI",
+        "standard": "COMMERCIAL_INVOICE",
+        "meaning": "Hóa đơn thương mại"
+      },
+      {
+        "raw": "PL",
+        "standard": "PACKING_LIST",
+        "meaning": "Phiếu đóng gói hàng hóa"
+      },
+      {
+        "raw": "C/O",
+        "standard": "CERTIFICATE_OF_ORIGIN",
+        "meaning": "Giấy chứng nhận xuất xứ hàng hóa"
+      }
+    ]
+  }
+}

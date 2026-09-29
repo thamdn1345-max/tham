@@ -1,0 +1,76 @@
+{
+  "LEARNING_CONFIG": {
+    "learn_only_from_confirmed_data": true,
+    "minimum_confirmations_for_promotion": 2,
+    "default_confidence": 0.8,
+    "confidence_increment_on_confirmation": 0.05,
+    "maximum_confidence": 1.0
+  },
+
+  "FIELD_CONTEXT_RULES": {
+    "POD": {
+      "Bill of Lading": "PORT_OF_DISCHARGE",
+      "Booking": "PORT_OF_DISCHARGE",
+      "Proof of Delivery": "PROOF_OF_DELIVERY"
+    },
+
+    "FROM": {
+      "Invoice": "EXPORTER",
+      "Packing List": "EXPORTER",
+      "Bill of Lading": "PLACE_OF_RECEIPT_OR_PORT_OF_LOADING"
+    },
+
+    "TO": {
+      "Invoice": "IMPORTER",
+      "Bill of Lading": "PORT_OF_DISCHARGE_OR_FINAL_DESTINATION"
+    }
+  },
+
+  "FIELD_GROUPS": {
+    "PARTIES": [
+      "EXPORTER",
+      "IMPORTER"
+    ],
+
+    "COMMERCIAL": [
+      "INVOICE_NUMBER",
+      "INVOICE_DATE",
+      "CONTRACT_NUMBER",
+      "CONTRACT_DATE",
+      "UNIT_PRICE",
+      "TOTAL_AMOUNT",
+      "CURRENCY",
+      "INCOTERMS"
+    ],
+
+    "CARGO": [
+      "HS_CODE",
+      "QUANTITY",
+      "PACKAGE_COUNT",
+      "GROSS_WEIGHT",
+      "NET_WEIGHT",
+      "MEASUREMENT",
+      "COUNTRY_OF_ORIGIN"
+    ],
+
+    "SHIPPING": [
+      "BL_NUMBER",
+      "VESSEL",
+      "VOYAGE",
+      "PORT_OF_LOADING",
+      "PORT_OF_DISCHARGE",
+      "CONTAINER_NUMBER",
+      "SEAL_NUMBER"
+    ]
+  },
+
+  "LEARNING_BEHAVIOR": {
+    "save_raw_input": true,
+    "save_extracted_value": true,
+    "save_normalized_value": true,
+    "save_user_correction": true,
+    "reuse_confirmed_corrections": true,
+    "promote_repeated_corrections": true,
+    "never_promote_unconfirmed_values": true
+  }
+}
